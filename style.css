@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 436px;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #535971;
+}
+
+body{
+    background: #E5E5E5;
+
+}
+
+.page{
+    width:750px;
+    margin: auto;
+}
+
+header{
+    margin-top: 138px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-bottom: 58px;
+}
+
+header h1{
+    font-family: 'Staatliches', normal;
+    font-weight: 400;
+    line-height: 60px;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+header p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+form{
+    background: #FFFFFF;
+    border-radius: 20px 20px 0 0;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 64px 64px 64px 64px; 
+}
+
+.col-2 {
+    display: flex;
+    gap: 22px;
+}
+  
+.col-2 input{
+    width: 300px;
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+
+fieldset legend{
+    font-family: 'Staatliches', normal;
+    font-size: 24px;
+    line-height: 34px;
+    color: #535971;
+
+    width: 100%;
+
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 16px;
+    margin-bottom: 36px;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4E4958;
+}
+
+.input-wrapper span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #C1BCCC;
+}
+
+.input-wrapper input, 
+.input-wrapper textarea,
+.input-wrapper select {
+    background: #FAFAFC;
+  
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    
+    height: 56px;
+  
+    padding: 0 24px;
+  
+    font-size: 16px;
+    line-height: 26px;
+  
+    color: #6c6a71;
+}
+
+label{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 8px;
+}
+
+fieldset p{
+    font-family: 'Staatliches', normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #535971;
+}
+
+.col-3{
+    display: flex;
+    gap: 10px;
+}
+
+.col-3 > div:nth-child(1) {
+    width: 100%;
+    padding-right: 22px;
+}
+
+footer{
+    width: 750px;
+    height: 160px;
+
+    background: #535971;
+    border-radius: 0px 0px 20px 20px;
+}
+
+footer input{
+    margin: 52px 71px;
+    width: 608px;
+    height: 55px;
+
+    background: #FF5374;
+    border: none;
+    border-radius: 20px;
+}
+
+.button{
+    font-family: 'Staatliches', normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
